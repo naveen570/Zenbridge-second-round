@@ -9,9 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "linear-gradient":
+          "linear-gradient(90deg, rgba(236,85,155,1) 0%, rgba(162,135,181,1) 100%)",
+      },
+      colors: {
+        primary: "#e82a82",
+        "dark-violet": { DEFAULT: "#0e0315", 100: "#170524" },
+        "dark-grey": "#0E0314",
+      },
+      container: {
+        center: true,
       },
     },
   },
